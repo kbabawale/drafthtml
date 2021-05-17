@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Gotham Black";
+  src: url("./assets/fonts/gotham/Gotham-Black.otf");
+}
+@font-face {
+  font-family: "Gotham Book";
+  src: url("./assets/fonts/gotham/GothamBook.otf");
+}
+@font-face {
+  font-family: "Gotham Medium";
+  src: url("./assets/fonts/gotham/GothamMedium.otf");
+}
+@font-face {
+  font-family: "Gotham Light";
+  src: url("./assets/fonts/gotham/Gotham-Light.otf");
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("./assets/fonts/gotham/Gotham-Bold.otf");
+}
+@font-face {
+  font-family: "Gotham Book Italic";
+  src: url("./assets/fonts/gotham/Gotham-BookItalic.otf");
+}
+
+:root {
+  --app-font-family-gotham-book: "Gotham Book";
+}
+
+.gotham-book {
+  font-family: "Gotham Book";
+}
+.gotham-black {
+  font-family: "Gotham Black";
+}
+body{
+    width:100%;
+}
